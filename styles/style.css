@@ -1,6 +1,11 @@
 * {
   font-family: "Georgia", serif;
 }
+
+img {
+  width: 100%;
+}
+
 .work-area {
   /* display: flex;
   align-items: center;
@@ -12,7 +17,6 @@
   justify-content: center;
   padding: 50px;
   padding-bottom: 35px;
-
   background-color: rgb(255, 255, 255);
 }
 
@@ -45,13 +49,12 @@
 }
 .img-block_container {
   position: fixed;
-  top: 50%;
   z-index: -1;
+  width: 100%;
 }
 .empty-space {
   height: 100px;
   width: 100%;
-  /* background-color: aqua; */
 }
 
 @media (min-width: 767px) {

@@ -36,9 +36,13 @@
         </div>
       </div>
       <div class="empty-space">
-        <div class="img-block_container">
+        <div id="ImgContainer" class="img-block_container">
           <img src="./src/imgs/IMG_4275.jpeg" />
         </div>
+        <script>
+            thisImg = document.getElementById('ImgContainer')
+            thisImg.style.top = window.innerHeight/2 + 'px'; 
+        </script>
       </div>
       <div class="regular-block__container">
         <h2 class="h2-class">Подчеркните свой стиль уже сегодня</h2>
